@@ -22,9 +22,10 @@ Analyze audience preferences using ratings & votes
 Evaluate production house success
 Discover high-performing actors & directors
 Support data-driven movie production decisions
-🗂️ Database Structure
 
 ----------
+
+🗂️ Database Structure
 
 The dataset consists of multiple relational tables:
 
