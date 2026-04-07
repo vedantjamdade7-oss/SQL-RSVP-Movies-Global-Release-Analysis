@@ -6,22 +6,22 @@ This project focuses on analyzing a global movie dataset using SQL to extract de
 
 The analysis simulates real-world business scenarios such as:
 
-🎥 Movie performance analysis
-⭐ Ratings & audience behavior
-🌍 Country-wise production trends
-🎭 Genre-based insights
-🏢 Production house performance
-🎬 Actor & director ranking
+-🎥 Movie performance analysis
+-⭐ Ratings & audience behavior
+-🌍 Country-wise production trends
+-🎭 Genre-based insights
+-🏢 Production house performance
+-🎬 Actor & director ranking
 
 ----------
 
 ## 🎯 Business Objective
 
-Identify top-performing movies and genres
-Analyze audience preferences using ratings & votes
-Evaluate production house success
-Discover high-performing actors & directors
-Support data-driven movie production decisions
+-Identify top-performing movies and genres
+-Analyze audience preferences using ratings & votes
+-Evaluate production house success
+-Discover high-performing actors & directors
+-Support data-driven movie production decisions
 
 ----------
 
