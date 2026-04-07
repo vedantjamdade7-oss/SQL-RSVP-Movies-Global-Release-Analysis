@@ -12,7 +12,11 @@ The analysis simulates real-world business scenarios such as:
 🎭 Genre-based insights
 🏢 Production house performance
 🎬 Actor & director ranking
-🎯 Business Objective
+
+----------
+
+## 🎯 Business Objective
+
 Identify top-performing movies and genres
 Analyze audience preferences using ratings & votes
 Evaluate production house success
