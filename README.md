@@ -1,8 +1,7 @@
-### 🎬 RSVP Movies Global Analysis (SQL Project)
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=200&section=header&text=RSVP%20Movies%20Analysis&fontSize=40&fontColor=ffffff" /> </p>
+# 🎬 RSVP Movies Global Analysis (SQL Project)
 📌 Project Overview
-
 This project focuses on analyzing a global movie dataset using SQL to extract deep insights into the film industry.
+
 
 The analysis simulates real-world business scenarios such as:
 
@@ -13,34 +12,34 @@ The analysis simulates real-world business scenarios such as:
 - 🏢 Production house performance
 - 🎬 Actor & director ranking
 
-----------
+---
 
 ## 🎯 Business Objective
 
--Identify top-performing movies and genres
--Analyze audience preferences using ratings & votes
--Evaluate production house success
--Discover high-performing actors & directors
--Support data-driven movie production decisions
+- Identify top-performing movies and genres
+- Analyze audience preferences using ratings & votes
+- Evaluate production house success
+- Discover high-performing actors & directors
+- Support data-driven movie production decisions
 
-----------
+---
 
 🗂️ Database Structure
 
 The dataset consists of multiple relational tables:
 
-🎬 movie → Movie details (title, year, duration, country, income)
-⭐ ratings → Ratings (avg_rating, total_votes, median_rating)
-🎭 genre → Movie genres
-👤 names → Actors, actresses, directors
-🎥 director_mapping → Director–movie relationship
-🎭 role_mapping → Actor/actress–movie relationship
-🛠️ Tools & Technologies
+- 🎬 movie → Movie details (title, year, duration, country, income)
+- ⭐ ratings → Ratings (avg_rating, total_votes, median_rating)
+- 🎭 genre → Movie genres
+- 👤 names → Actors, actresses, directors
+- 🎥 director_mapping → Director–movie relationship
+- 🎭 role_mapping → Actor/actress–movie relationship
+- 🛠️ Tools & Technologies
 
-----------
+---
 
 🔍 Data Exploration
-USE imdb;
+USE rsvp_movies_db ;
 
 SHOW TABLES;
 
@@ -49,7 +48,7 @@ SELECT * FROM ratings;
 SELECT * FROM genre;
 SELECT * FROM names;
 
-----------
+---
 
 ## 📊 Key Analysis & Insights
 
