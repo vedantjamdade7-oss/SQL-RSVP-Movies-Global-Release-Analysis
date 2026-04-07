@@ -1,4 +1,4 @@
-🎬 RSVP Movies Global Analysis (SQL Project)
+### 🎬 RSVP Movies Global Analysis (SQL Project)
 <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=200&section=header&text=RSVP%20Movies%20Analysis&fontSize=40&fontColor=ffffff" /> </p>
 📌 Project Overview
 
