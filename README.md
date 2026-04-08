@@ -124,10 +124,10 @@ Use data-driven decisions for content creation
 
 🚀 Project Highlights
 
-✔ Real-world business case study
-✔ Complex SQL queries (Advanced Level)
-✔ Industry-level insights
-✔ Clean & structured analysis
-✔ Strong portfolio project
+- ✔ Real-world business case study
+- ✔ Complex SQL queries (Advanced Level)
+- ✔ Industry-level insights
+- ✔ Clean & structured analysis
+- ✔ Strong portfolio project
 
 
