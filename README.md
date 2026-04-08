@@ -1,45 +1,89 @@
-# 🎬 RSVP Movies Global Analysis (SQL Project)
-📌 Project Overview
-This project focuses on analyzing a global movie dataset using SQL to extract deep insights into the film industry.
+<h1 align="center">🎬 RSVP Movies Global Analysis (SQL Project)</h1>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=220&section=header&text=RSVP%20Movies%20SQL%20Analysis&fontSize=42&fontColor=ffffff"/>
+</p>
 
-The analysis simulates real-world business scenarios such as:
+<hr>
 
-- 🎥 Movie performance analysis
-- ⭐ Ratings & audience behavior
-- 🌍 Country-wise production trends
-- 🎭 Genre-based insights
-- 🏢 Production house performance
-- 🎬 Actor & director ranking
+<h2>📌 Project Overview</h2>
 
----
+<p>
+This project delivers a <b>comprehensive SQL-based analysis</b> of a global movie dataset to uncover deep insights into the film industry.
+</p>
 
-## 🎯 Business Objective
+<ul>
+  <li>🎥 Movie performance tracking</li>
+  <li>⭐ Audience ratings & engagement analysis</li>
+  <li>🌍 Country-wise production trends</li>
+  <li>🎭 Genre-based insights</li>
+  <li>🏢 Production house evaluation</li>
+  <li>🎬 Actor & director ranking</li>
+</ul>
 
-- Identify top-performing movies and genres
-- Analyze audience preferences using ratings & votes
-- Evaluate production house success
-- Discover high-performing actors & directors
-- Support data-driven movie production decisions
+<hr>
 
----
+<h2>🎯 Business Objectives</h2>
 
-🗂️ Database Structure
+<ul>
+  <li>Identify <b>top-performing movies and genres</b></li>
+  <li>Analyze <b>audience behavior using ratings & votes</b></li>
+  <li>Evaluate <b>production house success</b></li>
+  <li>Discover <b>high-performing actors & directors</b></li>
+  <li>Support <b>data-driven decisions</b></li>
+</ul>
 
-The dataset consists of multiple relational tables:
+<hr>
 
-- 🎬 movie → Movie details (title, year, duration, country, income)
-- ⭐ ratings → Ratings (avg_rating, total_votes, median_rating)
-- 🎭 genre → Movie genres
-- 👤 names → Actors, actresses, directors
-- 🎥 director_mapping → Director–movie relationship
-- 🎭 role_mapping → Actor/actress–movie relationship
-- 🛠️ Tools & Technologies
+<h2>🗂️ Database Structure</h2>
 
----
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Table</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>🎬 movie</td>
+    <td>Movie details (title, year, duration, country, income)</td>
+  </tr>
+  <tr>
+    <td>⭐ ratings</td>
+    <td>Ratings (avg_rating, total_votes, median_rating)</td>
+  </tr>
+  <tr>
+    <td>🎭 genre</td>
+    <td>Movie genres</td>
+  </tr>
+  <tr>
+    <td>👤 names</td>
+    <td>Actors, actresses, directors</td>
+  </tr>
+  <tr>
+    <td>🎥 director_mapping</td>
+    <td>Director–movie relationship</td>
+  </tr>
+  <tr>
+    <td>🎭 role_mapping</td>
+    <td>Actor/actress–movie relationship</td>
+  </tr>
+</table>
 
-🔍 Data Exploration
-USE rsvp_movies_db ;
+<hr>
+
+<h2>🛠️ Tools & Technologies</h2>
+
+<p>
+<img src="https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge&logo=mysql"/>
+<img src="https://img.shields.io/badge/Data%20Analysis-Advanced-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Database-Relational-orange?style=for-the-badge"/>
+</p>
+
+<hr>
+
+<h2>🔍 Data Exploration</h2>
+
+<pre>
+USE imdb;
 
 SHOW TABLES;
 
@@ -47,87 +91,132 @@ SELECT * FROM movie;
 SELECT * FROM ratings;
 SELECT * FROM genre;
 SELECT * FROM names;
+</pre>
 
----
+<hr>
 
-## 📊 Key Analysis & Insights
+<h2>📊 Key Analysis & Insights</h2>
 
-- 🎥 Movie Trends
-Total movies analyzed year-wise and month-wise
-Identified growth trends in movie releases
+<h3>🎥 Movie Trends</h3>
+<ul>
+  <li>Year-wise and month-wise analysis</li>
+  <li>Growth trends identified</li>
+</ul>
 
-- 🌍 Country Analysis
-Compared movie production in USA vs India (2019)
-Found key production hubs
+<h3>🌍 Country Analysis</h3>
+<ul>
+  <li>USA vs India comparison (2019)</li>
+  <li>Identified production hubs</li>
+</ul>
 
-- 🎭 Genre Insights
-Identified most popular genre
-Ranked genres using RANK() window function
-Found average movie duration per genre
+<h3>🎭 Genre Insights</h3>
+<ul>
+  <li>Most popular genres</li>
+  <li>Ranking using <b>RANK()</b></li>
+  <li>Average duration analysis</li>
+</ul>
 
-- ⭐ Ratings Analysis
-Top 10 movies based on average rating ≥ 8
-Distribution of movies by median ratings
-Identified superhit, hit, and flop movies
+<h3>⭐ Ratings Analysis</h3>
+<ul>
+  <li>Top movies with rating ≥ 8</li>
+  <li>Movie classification (Superhit, Hit, Flop)</li>
+</ul>
 
-- 🏢 Production House Insights
-Found top production houses with most hit movies
-Ranked based on total votes and ratings
+<h3>🏢 Production House Insights</h3>
+<ul>
+  <li>Top production houses</li>
+  <li>Ranked by votes & ratings</li>
+</ul>
 
-- 🎬 Actor & Director Analysis
-Top actors with median rating ≥ 8
-Best actresses in Hindi movies
-Top directors in high-performing genres
+<h3>🎬 Actor & Director Analysis</h3>
+<ul>
+  <li>Top actors with high ratings</li>
+  <li>Best actresses in Hindi cinema</li>
+  <li>Top directors</li>
+</ul>
 
-- 💰 Revenue Analysis
-Highest grossing movies by year & genre
-Cleaned currency data using SQL transformations
+<h3>💰 Revenue Analysis</h3>
+<ul>
+  <li>Highest grossing movies</li>
+  <li>Data cleaned using SQL functions</li>
+</ul>
 
-----------
+<hr>
 
-🔥 Advanced SQL Concepts Used
-- ✅ JOIN (Multiple Tables)
-- ✅ GROUP BY & Aggregations
-- ✅ Window Functions (RANK, LEAD)
-- ✅ CTE (Common Table Expressions)
-- ✅ CASE Statements (Classification)
-- ✅ Data Cleaning (REPLACE, CAST)
-- ✅ Date Functions
+<h2>🔥 Advanced SQL Concepts Used</h2>
 
----
+<ul>
+  <li>✅ JOIN (Multi-table)</li>
+  <li>✅ GROUP BY & Aggregation</li>
+  <li>✅ Window Functions (RANK, LEAD)</li>
+  <li>✅ CTE (Common Table Expressions)</li>
+  <li>✅ CASE Statements</li>
+  <li>✅ Data Cleaning (REPLACE, CAST)</li>
+  <li>✅ Date Functions</li>
+</ul>
 
-📈 Market Recommendations
+<hr>
 
-Based on the analysis:
+<h2>📈 Market Recommendations</h2>
 
-🎯 Content Strategy
-Focus on Drama, Thriller, and Action genres (high production & engagement)
-Produce high-rating content (>8) for better audience response
+<h3>🎯 Content Strategy</h3>
+<ul>
+  <li>Focus on Drama, Thriller, Action</li>
+  <li>Target movies with rating > 8</li>
+</ul>
 
-⭐ Talent Investment
-Collaborate with top-rated directors and actors
-Invest in actors with consistent high median ratings
+<h3>⭐ Talent Investment</h3>
+<ul>
+  <li>Work with top-rated actors & directors</li>
+  <li>Invest in consistent performers</li>
+</ul>
 
-🌍 Market Expansion
-Target USA and India markets for higher production success
-Invest in multilingual movies for global reach
+<h3>🌍 Market Expansion</h3>
+<ul>
+  <li>Target USA & India markets</li>
+  <li>Invest in multilingual content</li>
+</ul>
 
-🏢 Production Strategy
-Partner with top production houses with proven hit records
-Focus on quality over quantity
+<h3>🏢 Production Strategy</h3>
+<ul>
+  <li>Partner with successful production houses</li>
+  <li>Focus on quality content</li>
+</ul>
 
-📊 Audience Insights
-Prioritize movies with high votes + high ratings
-Use data-driven decisions for content creation
+<h3>📊 Audience Insights</h3>
+<ul>
+  <li>Prioritize high votes + high ratings</li>
+  <li>Use data-driven decisions</li>
+</ul>
 
-----------
+<hr>
 
-🚀 Project Highlights
+<h2>🚀 Project Highlights</h2>
 
-- ✔ Real-world business case study
-- ✔ Complex SQL queries (Advanced Level)
-- ✔ Industry-level insights
-- ✔ Clean & structured analysis
-- ✔ Strong portfolio project
+<ul>
+  <li>✔ Real-world case study</li>
+  <li>✔ Advanced SQL queries</li>
+  <li>✔ Business insights</li>
+  <li>✔ Portfolio-ready project</li>
+</ul>
 
+<hr>
 
+<h2>🧑‍💻 Author</h2>
+
+<p><b>Vedant Jamdade</b><br>
+📊 Aspiring Data Analyst | SQL Specialist</p>
+
+<hr>
+
+<h2>⭐ Support</h2>
+
+<p>
+⭐ Star this repository<br>
+📢 Share with others<br>
+💼 Add to your portfolio
+</p>
+
+<hr>
+
+<p align="center"><b>💡 This project showcases real Data Analyst skills 🚀</b></p>
