@@ -1,4 +1,4 @@
-<h> align="center">🎬 RSVP Movies Global Analysis (SQL Project)</h>
+<h1>align="center">🎬 RSVP Movies Global Analysis (SQL Project)</h1>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=220&section=header&text=RSVP%20Movies%20SQL%20Analysis&fontSize=42&fontColor=ffffff"/>
