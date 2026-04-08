@@ -52,50 +52,51 @@ SELECT * FROM names;
 
 ## 📊 Key Analysis & Insights
 
-🎥 Movie Trends
+- 🎥 Movie Trends
 Total movies analyzed year-wise and month-wise
 Identified growth trends in movie releases
 
-🌍 Country Analysis
+- 🌍 Country Analysis
 Compared movie production in USA vs India (2019)
 Found key production hubs
 
-🎭 Genre Insights
+- 🎭 Genre Insights
 Identified most popular genre
 Ranked genres using RANK() window function
 Found average movie duration per genre
 
-⭐ Ratings Analysis
+- ⭐ Ratings Analysis
 Top 10 movies based on average rating ≥ 8
 Distribution of movies by median ratings
 Identified superhit, hit, and flop movies
 
-🏢 Production House Insights
+- 🏢 Production House Insights
 Found top production houses with most hit movies
 Ranked based on total votes and ratings
 
-🎬 Actor & Director Analysis
+- 🎬 Actor & Director Analysis
 Top actors with median rating ≥ 8
 Best actresses in Hindi movies
 Top directors in high-performing genres
 
-💰 Revenue Analysis
+- 💰 Revenue Analysis
 Highest grossing movies by year & genre
 Cleaned currency data using SQL transformations
 
 ----------
 
 🔥 Advanced SQL Concepts Used
-✅ JOIN (Multiple Tables)
-✅ GROUP BY & Aggregations
-✅ Window Functions (RANK, LEAD)
-✅ CTE (Common Table Expressions)
-✅ CASE Statements (Classification)
-✅ Data Cleaning (REPLACE, CAST)
-✅ Date Functions
-📈 Market Recommendations
+- ✅ JOIN (Multiple Tables)
+- ✅ GROUP BY & Aggregations
+- ✅ Window Functions (RANK, LEAD)
+- ✅ CTE (Common Table Expressions)
+- ✅ CASE Statements (Classification)
+- ✅ Data Cleaning (REPLACE, CAST)
+- ✅ Date Functions
 
-----------
+---
+
+📈 Market Recommendations
 
 Based on the analysis:
 
