@@ -2,6 +2,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=220&section=header&text=🎬RSVP%20Movies%20SQL%20Analysis&fontSize=50&fontColor=ffffff"/>
 </p>
 
+<p align="center">
+  <img src="RSVP_Movies_official_logo.jpg" alt="RSVP Logo" style="width:100%; height:auto;" />
+</p>
+
 <hr>
 
 <h2>📌 Project Overview</h2>
