@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="RSVP_Movies_official_logo.jpg" alt="RSVP Logo" style="width:100%; height:auto;" />
+  <img src="https://github.com/user-attachments/assets/29218f32-11e2-425c-8824-2d51d39c8dc2" 
+       alt="RSVP Movies Logo" 
+       width="100%" />
 </p>
 
 <hr>
