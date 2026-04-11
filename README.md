@@ -211,7 +211,7 @@ SELECT * FROM names;
 <h2>🧑‍💻 Author</h2>
 
 <p><b>Vedant Jamdade</b><br>
-📊 Aspiring Data Analyst | SQL Specialist</p>
+📊 Data Analyst | SQL Specialist</p>
 
 <hr>
 
