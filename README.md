@@ -217,12 +217,6 @@ SELECT * FROM names;
 
 <h2>⭐ Support</h2>
 
-<p>
-⭐ Star this repository<br>
-📢 Share with others<br>
-💼 Add to your portfolio
-</p>
-
 <hr>
 
 <p align="center"><b>💡 This project showcases real Data Analyst skills 🚀</b></p>
