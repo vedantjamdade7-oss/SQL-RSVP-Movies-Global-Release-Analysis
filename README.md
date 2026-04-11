@@ -215,8 +215,4 @@ SELECT * FROM names;
 
 <hr>
 
-<h2>⭐ Support</h2>
-
-<hr>
-
 <p align="center"><b>💡 This project showcases real Data Analyst skills 🚀</b></p>
