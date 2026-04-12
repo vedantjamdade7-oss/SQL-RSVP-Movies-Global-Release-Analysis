@@ -103,7 +103,7 @@ SELECT * FROM names;
 
 <h2>📊 Key Analysis & Insights</h2>
 
-<h3>🎥 Movie Trends</h3>
+
 <ul>
   <li>Year-wise and month-wise analysis</li>
   <li>Growth trends identified</li>
