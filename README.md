@@ -107,7 +107,6 @@ SELECT * FROM names;
 <ul>
   <li>Year-wise and month-wise analysis</li>
   <li>Growth trends identified</li>
-</ul>
 
 <h3>🌍 Country Analysis</h3>
 <ul>
