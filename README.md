@@ -101,12 +101,7 @@ SELECT * FROM names;
 
 <hr>
 
-<h2>📊 Key Analysis & Insights</h2>
-
-
-<ul>
-  <li>Year-wise and month-wise analysis</li>
-  <li>Growth trends identified</li>
+<h2>📊 Key Analysis
 
 <h3>🌍 Country Analysis</h3>
 <ul>
