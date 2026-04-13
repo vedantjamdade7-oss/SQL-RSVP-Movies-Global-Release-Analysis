@@ -100,11 +100,10 @@ SELECT * FROM names;
 </pre>
 
 
-
-## 📊 Key Analysis
+## 🧹 Data Cleaning
 
 ```sql
--- Q1. Find the total number of rows in each table of the schema?
+Q1. Find the total number of rows in each table of the schema?
 SELECT table_name,
 table_rows
 FROM information_schema.tables
@@ -112,7 +111,7 @@ WHERE table_schema = 'rsvp__movies_db';
 ```
 
 ```sql
--- Q2. Which columns in the movie table have null values?
+Q2. Which columns in the movie table have null values?
 SELECT 
 SUM(CASE WHEN id IS NULL THEN 1 ELSE 0 END ) AS id_null,
 SUM(CASE  WHEN title IS NULL THEN 1 ELSE 0 END) AS title_null,
