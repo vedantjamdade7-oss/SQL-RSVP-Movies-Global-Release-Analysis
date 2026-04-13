@@ -89,7 +89,7 @@ This project delivers a <b>comprehensive SQL-based analysis</b> of a global movi
 <h2>🔍 Data Exploration</h2>
 
 <pre>
-USE imdb;
+USE rsvp__movies_db;
 
 SHOW TABLES;
 
@@ -103,10 +103,12 @@ SELECT * FROM names;
 
 <h2>📊 Key Analysis
 
-<h3>🌍 Country Analysis</h3>
 <ul>
-  <li>USA vs India comparison (2019)</li>
-  <li>Identified production hubs</li>
+-- Q1. Find the total number of rows in each table of the schema?
+SELECT table_name,
+table_rows
+FROM information_schema.tables
+WHERE table_schema = 'rsvp__movies_db';
 </ul>
 
 <h3>🎭 Genre Insights</h3>
