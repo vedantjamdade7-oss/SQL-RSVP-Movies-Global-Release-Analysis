@@ -99,7 +99,7 @@ SELECT * FROM genre;
 SELECT * FROM names;
 </pre>
 
-<hr>
+
 
 <h2>📊 Key Analysis
 
@@ -126,7 +126,7 @@ SUM(CASE WHEN production_company IS NULL THEN 1 ELSE 0 END) AS product_company_n
 FROM movie;
 ```
 
-<hr>
+
 
 <h2>🔥 Advanced SQL Concepts Used</h2>
 
