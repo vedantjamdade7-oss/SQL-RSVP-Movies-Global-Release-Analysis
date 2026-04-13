@@ -111,37 +111,6 @@ FROM information_schema.tables
 WHERE table_schema = 'rsvp__movies_db';
 </ul>
 
-<h3>🎭 Genre Insights</h3>
-<ul>
-  <li>Most popular genres</li>
-  <li>Ranking using <b>RANK()</b></li>
-  <li>Average duration analysis</li>
-</ul>
-
-<h3>⭐ Ratings Analysis</h3>
-<ul>
-  <li>Top movies with rating ≥ 8</li>
-  <li>Movie classification (Superhit, Hit, Flop)</li>
-</ul>
-
-<h3>🏢 Production House Insights</h3>
-<ul>
-  <li>Top production houses</li>
-  <li>Ranked by votes & ratings</li>
-</ul>
-
-<h3>🎬 Actor & Director Analysis</h3>
-<ul>
-  <li>Top actors with high ratings</li>
-  <li>Best actresses in Hindi cinema</li>
-  <li>Top directors</li>
-</ul>
-
-<h3>💰 Revenue Analysis</h3>
-<ul>
-  <li>Highest grossing movies</li>
-  <li>Data cleaned using SQL functions</li>
-</ul>
 
 <hr>
 
