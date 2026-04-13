@@ -101,7 +101,7 @@ SELECT * FROM names;
 
 
 
-<h2>📊 Key Analysis
+## 📊 Key Analysis
 
 ```sql
 -- Q1. Find the total number of rows in each table of the schema?
