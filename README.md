@@ -103,13 +103,14 @@ SELECT * FROM names;
 
 <h2>📊 Key Analysis
 
-<ul>
+~~~sql
 -- Q1. Find the total number of rows in each table of the schema?
 SELECT table_name,
 table_rows
 FROM information_schema.tables
 WHERE table_schema = 'rsvp__movies_db';
-</ul>
+~~~
+
 
 
 <hr>
