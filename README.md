@@ -103,15 +103,28 @@ SELECT * FROM names;
 
 <h2>📊 Key Analysis
 
-~~~sql
+```sql
 -- Q1. Find the total number of rows in each table of the schema?
 SELECT table_name,
 table_rows
 FROM information_schema.tables
 WHERE table_schema = 'rsvp__movies_db';
-~~~
+```
 
-
+```sql
+-- Q2. Which columns in the movie table have null values?
+SELECT 
+SUM(CASE WHEN id IS NULL THEN 1 ELSE 0 END ) AS id_null,
+SUM(CASE  WHEN title IS NULL THEN 1 ELSE 0 END) AS title_null,
+SUM(CASE WHEN YEAR IS NULL THEN 1 ELSE 0 END) AS year_null,
+SUM(CASE WHEN date_published IS NULL THEN 1 ELSE 0 END) AS date_pub_null,
+SUM(CASE WHEN duration IS NULL THEN 1 ELSE 0 END) AS duration_null,
+SUM(CASE WHEN country IS NULL THEN 1 ELSE 0 END) AS country_null,
+SUM(CASE WHEN worlwide_gross_income IS NULL THEN 1 ELSE 0 END) AS worlwide_gross_income_null,
+SUM(CASE WHEN languages IS NULL THEN 1 ELSE 0 END) AS languages_null,
+SUM(CASE WHEN production_company IS NULL THEN 1 ELSE 0 END) AS product_company_null
+FROM movie;
+```
 
 <hr>
 
