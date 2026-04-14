@@ -12,7 +12,7 @@
 
 <hr>
 
-<h2>📌 Project Overvie</h2>
+<h2>📌 Project Overview</h2>
 
 <p>
 This project delivers a <b>comprehensive SQL-based analysis</b> of a global movie dataset to uncover deep insights into the film industry.
