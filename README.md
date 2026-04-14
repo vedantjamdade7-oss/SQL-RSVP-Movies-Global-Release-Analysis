@@ -141,19 +141,20 @@ WHERE year=2019
 AND (Country LIKE '%USA%' OR country LIKE '%India%');
 ```
 
+```sql
 -- Q5. Find the unique list of the genres present in the data set?
 
 SELECT DISTINCT genre FROM genre;
+```
 
+```sql
 -- Q6.Which genre had the highest number of movies produced overall?
 SELECT genre, COUNT(*) AS highest_no_genre
 FROM genre
 GROUP BY genre
 ORDER BY highest_no_genre DESC
 LIMIT 1;
-
-
-
+```
 
 
 <h2>🔥 Advanced SQL Concepts Used</h2>
