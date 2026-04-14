@@ -126,7 +126,7 @@ FROM movie;
 ```
 
 ```sql
--- Q3. Find the total number of movies released each year? How does the trend look month wise? (Output expected)
+Q3. Find the total number of movies released each year? How does the trend look month wise? (Output expected)
 SELECT MONTH(date_published) AS month , COUNT(*) AS total_no_movie
 FROM movie
 GROUP BY MONTH(date_published)
@@ -134,7 +134,7 @@ ORDER BY total_no_movie DESC ;
 ```
 
 ```sql
--- Q4. How many movies were produced in the USA or India in the year 2019??
+Q4. How many movies were produced in the USA or India in the year 2019??
 SELECT COUNT(*) AS number_of_movies 
 FROM movie
 WHERE year=2019
@@ -142,13 +142,13 @@ AND (Country LIKE '%USA%' OR country LIKE '%India%');
 ```
 
 ```sql
--- Q5. Find the unique list of the genres present in the data set?
+Q5. Find the unique list of the genres present in the data set?
 
 SELECT DISTINCT genre FROM genre;
 ```
 
 ```sql
--- Q6.Which genre had the highest number of movies produced overall?
+Q6.Which genre had the highest number of movies produced overall?
 SELECT genre, COUNT(*) AS highest_no_genre
 FROM genre
 GROUP BY genre
