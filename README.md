@@ -125,6 +125,22 @@ SUM(CASE WHEN production_company IS NULL THEN 1 ELSE 0 END) AS product_company_n
 FROM movie;
 ```
 
+```sql
+-- Q3. Find the total number of movies released each year? How does the trend look month wise? (Output expected)
+SELECT MONTH(date_published) AS month , COUNT(*) AS total_no_movie
+FROM movie
+GROUP BY MONTH(date_published)
+ORDER BY total_no_movie DESC ;
+```
+
+```sql
+-- Q4. How many movies were produced in the USA or India in the year 2019??
+SELECT COUNT(*) AS number_of_movies 
+FROM movie
+WHERE year=2019
+AND (Country LIKE '%USA%' OR country LIKE '%India%');
+```
+
 
 
 <h2>🔥 Advanced SQL Concepts Used</h2>
