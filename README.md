@@ -141,6 +141,10 @@ WHERE year=2019
 AND (Country LIKE '%USA%' OR country LIKE '%India%');
 ```
 
+-- Q5. Find the unique list of the genres present in the data set?
+
+SELECT DISTINCT genre FROM genre;
+
 
 
 <h2>🔥 Advanced SQL Concepts Used</h2>
