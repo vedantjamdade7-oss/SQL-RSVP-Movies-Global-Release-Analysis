@@ -77,10 +77,11 @@ This project delivers a <b>comprehensive SQL-based analysis</b> of a global movi
 <hr>
 
 ## 🗺️ Entity Relationship Diagram (ERD)
-<p align="center">
-  <img src=<img width="956" height="586" alt="Screenshot 2026-04-16 142010" src="https://github.com/user-attachments/assets/fa2bb95f-42b4-4100-afcf-43276b9e5c63" />
 
+<p align="center">
+  <img width="956" height="586" alt="Screenshot 2026-04-16 142010" src="https://github.com/user-attachments/assets/fa2bb95f-42b4-4100-afcf-43276b9e5c63" />
 </p>
+
 
 <h2>🛠️ Tools & Technologies</h2>
 
