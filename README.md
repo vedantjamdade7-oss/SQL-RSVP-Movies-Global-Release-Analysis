@@ -379,6 +379,28 @@ HAVING COUNT(m.id) >=3;
 ```
 
 ```sql
+/* Q24. Select thriller movies as per avg rating and classify them in the following category
+             Rating>8: Superhit movies
+             Rating between 7 and 8: Hit movies
+             Rating between 5 and 7: One-time-watch movies
+             Rating<5: Flop movies  */
+             
+ 
+SELECT title, avg_rating,
+CASE
+     WHEN avg_rating>8 THEN "Superhit Movie"
+     WHEN avg_rating BETWEEN 7 AND 8 THEN "Hit Movies"
+     WHEN avg_rating BETWEEN 5 AND 7 THEN "One-time-watch movies"
+     ELSE "Flop Movies"
+END AS ratings
+FROM genre g
+JOIN movie m ON g.movie_id=m.id
+JOIN ratings r ON g.movie_id=r.movie_id
+WHERE genre = "thriller";
+```
+
+
+```sql
 -- Q25. What is the genre-wise running total and moving average of the average movie duration? 
 SELECT genre, AVG(duration) AS avg_duration,
 SUM(AVG(duration)) OVER(ORDER BY genre ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_total_duration,
