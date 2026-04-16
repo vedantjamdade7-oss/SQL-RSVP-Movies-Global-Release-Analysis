@@ -156,6 +156,29 @@ ORDER BY highest_no_genre DESC
 LIMIT 1;
 ```
 
+```sql
+Q8.What is the average duration of movies in each genre? 
+SELECT genre, AVG(duration) AS Avg_duration 
+FROM genre g
+JOIN movie m 
+ON g.movie_id=m.id
+GROUP BY genre
+ORDER BY Avg_duration DESC;
+```
+
+```sql
+Q9.What is the rank of the ‘thriller’ genre of movies among all the genres in terms of number of movies produced? 
+WITH summary AS (
+SELECT genre , COUNT(*) AS movie,
+RANK() OVER (ORDER BY count(*) DESC) AS gener_rank
+FROM genre
+GROUP BY genre)
+SELECT * FROM summary
+WHERE genre = "thriller";
+```
+
+
+
 
 <h2>🔥 Advanced SQL Concepts Used</h2>
 
