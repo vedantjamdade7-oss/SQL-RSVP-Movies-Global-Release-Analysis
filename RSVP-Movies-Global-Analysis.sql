@@ -1,4 +1,6 @@
-USE imdb;
+-- RSVP Movies Global Analysis --
+
+USE rsvp__movies_db;
 
 
 -- Q1. Find the total number of rows in each table of the schema?
