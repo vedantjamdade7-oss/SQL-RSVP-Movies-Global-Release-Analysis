@@ -132,6 +132,10 @@ SUM(CASE WHEN production_company IS NULL THEN 1 ELSE 0 END) AS product_company_n
 FROM movie;
 ```
 
+## 📊 Business Questions & SQL Analysis
+
+The following business questions were solved using SQL queries.
+
 ```sql
 Q3. Find the total number of movies released each year? How does the trend look month wise? (Output expected)
 SELECT MONTH(date_published) AS month , COUNT(*) AS total_no_movie
