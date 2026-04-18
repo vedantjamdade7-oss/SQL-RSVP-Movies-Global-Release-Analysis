@@ -317,7 +317,6 @@ JOIN director_mapping dm ON m.id=dm.movie_id
 JOIN names n ON n.id=dm.name_id
 JOIN top_three_genres ttg ON g.genre=ttg.genre
 WHERE avg_rating>8
--- AND genre IN (SELECT genre FROM top_three_genres)
 GROUP BY n.name)
 SELECT name AS director_name, movie_count FROM director_summary
 WHERE director_rank<=3;
