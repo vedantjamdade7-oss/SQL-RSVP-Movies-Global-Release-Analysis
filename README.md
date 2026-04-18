@@ -95,7 +95,7 @@ This project delivers a <b>comprehensive SQL-based analysis</b> of a global movi
 
 <h2>🔍 Data Exploration</h2>
 
-<pre>
+```sql
 USE rsvp__movies_db;
 
 SHOW TABLES;
@@ -104,7 +104,7 @@ SELECT * FROM movie;
 SELECT * FROM ratings;
 SELECT * FROM genre;
 SELECT * FROM names;
-</pre>
+```
 
 
 ## 🧹 Data Cleaning
