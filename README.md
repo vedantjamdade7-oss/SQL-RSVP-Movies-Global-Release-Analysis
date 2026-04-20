@@ -79,7 +79,7 @@ This project delivers a <b>comprehensive SQL-based analysis</b> of a global movi
   </tr>
 
   <tr>
-    <td>🎥 director_mapping</td>
+    <td>🎥director_mapping</td>
     <td>
       movie_id (PK), name_id (PK)
     </td>
