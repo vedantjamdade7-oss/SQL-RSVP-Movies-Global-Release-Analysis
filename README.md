@@ -46,34 +46,53 @@ This project delivers a <b>comprehensive SQL-based analysis</b> of a global movi
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
     <th>Table</th>
-    <th>Description</th>
+    <th>Columns</th>
   </tr>
+
   <tr>
     <td>🎬 movie</td>
-    <td>Movie details (title, year, duration, country, income)</td>
+    <td>
+      id (PK), title, year, date_published, duration, country, 
+      worlwide_gross_income, languages, production_company
+    </td>
   </tr>
+
   <tr>
     <td>⭐ ratings</td>
-    <td>Ratings (avg_rating, total_votes, median_rating)</td>
+    <td>
+      movie_id (PK), avg_rating, total_votes, median_rating
+    </td>
   </tr>
+
   <tr>
     <td>🎭 genre</td>
-    <td>Movie genres</td>
+    <td>
+      movie_id (PK), genre (PK)
+    </td>
   </tr>
+
   <tr>
     <td>👤 names</td>
-    <td>Actors, actresses, directors</td>
+    <td>
+      id (PK), name, height, date_of_birth, known_for_movies
+    </td>
   </tr>
+
   <tr>
     <td>🎥 director_mapping</td>
-    <td>Director–movie relationship</td>
+    <td>
+      movie_id (PK), name_id (PK)
+    </td>
   </tr>
+
   <tr>
     <td>🎭 role_mapping</td>
-    <td>Actor/actress–movie relationship</td>
+    <td>
+      movie_id (PK), name_id (PK), category
+    </td>
   </tr>
-</table>
 
+</table>
 <hr>
 
 ## 🗺️ Entity Relationship Diagram (ERD)
