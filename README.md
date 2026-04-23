@@ -29,7 +29,7 @@ This project delivers a <b>comprehensive SQL-based analysis</b> of a global movi
 
 <hr>
 
-<h2>🎯 Business Objectives</h2>
+<h2>🎯 Business Objective</h2>
 
 <ul>
   <li>Identify <b>top-performing movies and genres</b></li>
