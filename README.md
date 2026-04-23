@@ -41,7 +41,7 @@ This project delivers a <b>comprehensive SQL-based analysis</b> of a global movi
 
 <hr>
 
-<h2>🗂️ Database Structur</h2>
+<h2>🗂️ Database Structure</h2>
 
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
