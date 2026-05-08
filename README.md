@@ -596,7 +596,7 @@ LIMIT 9;
 <h2>🧑‍💻 Author</h2>
 
 <p><b>Vedant Jamdade</b><br>
-📊 Data Analyst | SQL Specialist</p>
+📊 Aspiring Data Analyst | SQL Specialist</p>
 
 <hr>
 
