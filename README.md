@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=220&section=header&text=🎬RSVP%20Movies%20SQL%20Analysis&fontSize=50&fontColor=ffffff"/>
 </p>
 
-<h2>🚀 Project Preview</h2>
+<h2>🚀 Project Previe</h2>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2ba95091-2c36-47c8-96ea-e9830ef9064c" 
